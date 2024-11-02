@@ -7,7 +7,7 @@ struct Node {
     Node* prev;
 };
 
-void insertFirst_2311104013(Node*& head, int value) {
+void insertFirst_2311104025(Node*& head, int value) {
     Node* node = new Node();
     node->data = value;
     node->next = head;
@@ -19,7 +19,7 @@ void insertFirst_2311104013(Node*& head, int value) {
     head = node;
 }
 
-void insertLast_2311104013(Node*& head, int value) {
+void insertLast_2311104025(Node*& head, int value) {
     Node* node = new Node();
     node->data = value;
     node->next = NULL;
@@ -39,7 +39,7 @@ void insertLast_2311104013(Node*& head, int value) {
     node->prev = temp;
 }
 
-void displayList_2311104013(Node* head) {
+void displayList_2311104025(Node* head) {
     Node* temp = head;
     cout << "Daftar Anggota List: ";
     while (temp != NULL) {
@@ -59,7 +59,7 @@ int main() {
 
     cout << "Masukan elemen pertama: ";
     cin >> value;
-    insertFirst_2311104013(head, value);
+    insertFirst_2311104025(head, value);
 
     cout << "Masukan elemen kedua di awal: ";
     cin >> value;
