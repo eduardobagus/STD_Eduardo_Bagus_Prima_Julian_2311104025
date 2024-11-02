@@ -7,7 +7,7 @@ struct Node
     Node* next;
 };
 
-void tambahNode_2311104013(Node*& head, int value) {
+void tambahNode_2311104025(Node*& head, int value) {
     Node* node = new Node();
     node->data = value;
     node->next = NULL;
@@ -23,7 +23,7 @@ void tambahNode_2311104013(Node*& head, int value) {
     }
 }
 
-void searchElement_2311104013(Node* head, int i) {
+void searchElement_2311104025(Node* head, int i) {
     Node* current = head;
     int position = 1;
 
@@ -46,13 +46,13 @@ int main() {
     for (int i = 0; i < 6; i++) {
         cout << "Masukan elemen ke-" << i+1 << ": ";
         cin >> value;
-        tambahNode_2311104013(head, value);
+        tambahNode_2311104025(head, value);
     }
 
     int cariElemen;
     cout << "Masukan elemen yang ingin dicari: ";
     cin >> cariElemen;
-    searchElement_2311104013(head, cariElemen);
+    searchElement_2311104025(head, cariElemen);
 
     return 0;
 }
