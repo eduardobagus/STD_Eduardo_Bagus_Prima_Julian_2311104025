@@ -63,13 +63,13 @@ int main() {
 
     cout << "Masukan elemen kedua di awal: ";
     cin >> value;
-    insertFirst_2311104013(head, value);
+    insertFirst_2311104025(head, value);
 
     cout << "Masukan elemen ketiga di akhir: ";
     cin >> value;
-    insertLast_2311104013(head, value);
+    insertLast_2311104025(head, value);
 
-    displayList_2311104013(head);
+    displayList_2311104025(head);
 
     return 0;
 }
